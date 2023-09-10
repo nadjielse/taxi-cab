@@ -129,25 +129,3 @@
   height: 3rem;
   aspect-ratio: 1 / 1;
 }
-
-.comment {
-  position: relative;
-  display: flex;
-  gap: .5rem;
-  align-items: center;
-  padding: .75rem;
-  border-radius: .5rem;
-  margin-block: 1rem;
-  font-size: .75rem;
-  background-color: #E5E1E6;
-}
-
-.user-pic {
-  width: 3rem;
-  aspect-ratio: 1 / 1;
-}
-
-.trash {
-  position: absolute;
-  right: .5rem;
-}
