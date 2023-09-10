@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1em;
+  background-color: transparent;
+}
+
+:root {
+  color: #372D3B;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background-color: #111;
+}
+
+#container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+#header {
+  height: 2.5rem;
+  max-width: 5rem;
+  border-radius: 2.5rem;
+  margin: 0 auto 2rem;
+  background-color: #E5D8EA;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#highlight {
+  color: #864293;
+}
+
+#subtitle {
+  font-size: 1.5rem;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-block: 2rem;
+  z-index: 1;
+}
+
+#profile {
+  width: min-content;
+  text-align: center;
+}
+
+#picture {
+  position: relative;
+  width: min-content;
+}
+
+#rate {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  padding: .5rem .75rem;
+  border-radius: 1rem;
+  background-color: #372D3B;
+  color: #fff;
+  font-weight: bold;
+}
+
+#driver-name {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#car {
+  position: absolute;
+  top: 50%;
+  transform: translate(25%, -50%);
+  z-index: -1;
+}
+
+#plate {
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#car-name {
+  font-size: 1.25rem;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2rem;
+}
+
+#message-field {
+  min-width: 24rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #F5EDF7;
+}
+
+#send-message {
+  padding: .5rem;
+  border-radius: .5rem;
+  background-color: #00875F;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact {
+  height: 3rem;
+  aspect-ratio: 1 / 1;
+}
+
+.comment {
+  position: relative;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  padding: .75rem;
+  border-radius: .5rem;
+  margin-block: 1rem;
+  font-size: .75rem;
+  background-color: #E5E1E6;
+}
+
+.user-pic {
+  width: 3rem;
+  aspect-ratio: 1 / 1;
+}
+
+.trash {
+  position: absolute;
+  right: .5rem;
+}
